@@ -20,9 +20,6 @@ public abstract class ClickableObject extends GameObject implements MouseListene
     public ClickableObject(Dimension size, Point position) {
         super(size, position);
         Handler.getGraphicsEngine().addMouseListener(this);
-        // kolejna zmiana
-        // i kolejna
-        // inna zmiana
     }
 
     private boolean mouseIsAbove(MouseEvent e) {
